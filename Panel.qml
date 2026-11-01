@@ -614,7 +614,7 @@ Panel {
     }
   }
 
-  readonly property string miracastCtl: (Quickshell.env("HOME") || "") + "/.config/omarchy/plugins/realchrisolin.monitor/bin/miracast-ctl"
+  readonly property string miracastCtl: (Quickshell.env("HOME") || "") + "/.config/omarchy/plugins/realchrisolin.display/bin/miracast-ctl"
   property bool echoCancelMiracast: true
   readonly property bool miracastSinkPresent: {
     var list = root.audioSinks
